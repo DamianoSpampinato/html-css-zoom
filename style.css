@@ -25,6 +25,17 @@ header div{
     justify-content: flex-end;
     gap: 5px;
     margin-right: 5px;
+    font-size: 14px;
+}
+
+.tag{
+    font-size: inherit;
+    padding: 5px;
+    background-color: #4a4a4a; 
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: #fff;
 }
 
 button{
@@ -41,70 +52,64 @@ button{
     /HEADER
 ---------- */
 
-
+/* GRID PARTECIPANTS */
 .container{
-    height: calc(100vh - 127px);
+    height: calc(100vh - 32.8px - 80px);
     display: flex;
     flex-wrap: wrap;
     overflow: auto;
     padding-top: 45px;
+    
     padding-bottom: 25px;
     max-width: 1200px;
     margin: auto;
     gap: 10px;
 }
 
-img{
-    width: 200px;
+
+
+.img-container{
+    width: calc(200px - 10px);
     height: 100px;
+    position: relative;
 }
 
+
+
+.webcam-bottom{
+    background-color: rgba(60, 60, 60, 0.5);
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 5px;
+}
+
+img{
+    width: 100%;
+}
+
+/* footer */
 footer{
     background-color: #222222;
-    padding-top: 10px;
-    display: flex;
-    height: 80px;
     
+    display: flex;
+    height: 80px;   
 }
-
-
 
 .footer-left{
     margin-left: 15px;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .footer-center{
-    gap: 15px;
+    gap: 20px;
     display: flex;
 }
 
-.button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #fff;
-    gap: 10px;
-}
 
-
-.fa-solid{
-    font-size: 25px;
-}
-
-
-.fa-chevron-down{
-    align-self: center;
-    font-size: 15px;
-    color: #fff;
-}
-
-
-
-.grow{
-    flex-grow: 1;
-}
 
 .footer-right{
     align-items: center;
@@ -116,28 +121,56 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 60px;
-   
+    
 }
+
+
+
+/* -----------
+UTILITY
+---------- */
+
+
+
+
+
+
+
+.grow{
+    flex-grow: 1;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+}
+
+
 
 .container-button{
     display: flex;
 }
-/* 
-.btn-left{
-    width: 60%;
-    padding-right: 15px;
+
+/* -------
+ICON FONT AWESOME
+-------- */
+
+.fa-share-from-square{
+    color: lightgreen;
 }
 
-.btn-left i {
-    font-size: 30px;
-}
 
-.btn-name{
-    font-size: 12px;
+footer .fa-solid{
+    font-size: 25px;
+    padding-top: 10px;
 }
-
-.btn-right{
-    width: 40%;
+footer .fa-chevron-down{
+    
+    font-size: 15px;
+    color: #fff;
+    line-height: 80px;
+    padding-top: 0;
 }
- */
-
