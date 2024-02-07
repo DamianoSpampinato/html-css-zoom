@@ -1,6 +1,6 @@
 /* -------
  RESET
- ------ */  
+ ------ */
 
  *{
     margin: 0;
@@ -17,9 +17,7 @@ body{
 /* ---------
     HEADER
 ---------- */
-header{
-    height: calc(14px + 10px + 6px );
-}
+
 
 header div{
     padding-top: 6px;
@@ -45,16 +43,101 @@ button{
 
 
 .container{
-    height: calc(100vh - 14px -10px - 6px);
+    height: calc(100vh - 127px);
     display: flex;
     flex-wrap: wrap;
     overflow: auto;
     padding-top: 45px;
+    padding-bottom: 25px;
     max-width: 1200px;
     margin: auto;
+    gap: 10px;
 }
 
 img{
     width: 200px;
     height: 100px;
 }
+
+footer{
+    background-color: #222222;
+    padding-top: 10px;
+    display: flex;
+    height: 80px;
+    
+}
+
+
+
+.footer-left{
+    margin-left: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-center{
+    gap: 15px;
+    display: flex;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+}
+
+
+.fa-solid{
+    font-size: 25px;
+}
+
+
+.fa-chevron-down{
+    align-self: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+.grow{
+    flex-grow: 1;
+}
+
+.footer-right{
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+#end{
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 60px;
+   
+}
+
+.container-button{
+    display: flex;
+}
+/* 
+.btn-left{
+    width: 60%;
+    padding-right: 15px;
+}
+
+.btn-left i {
+    font-size: 30px;
+}
+
+.btn-name{
+    font-size: 12px;
+}
+
+.btn-right{
+    width: 40%;
+}
+ */
+
