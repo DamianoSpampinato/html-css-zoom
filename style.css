@@ -7,3 +7,30 @@
     padding: 0;
     box-sizing: border-box;
  }
+
+body{
+    background-color: black;
+}
+
+header{
+    height: calc(14 + 10 + 6 );
+    width: 100vw;
+}
+
+header div{
+    padding-top: 6px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-right: 5px;
+}
+
+button{
+    font-size: 14px;
+    padding: 5px;
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: #fff;
+ }
